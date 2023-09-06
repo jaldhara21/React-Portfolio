@@ -16,7 +16,7 @@ function Footer() {
               <VscGithubAlt />
             </li>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/jaldhara-patel-1395a7222/">
             <li className="logo">
               <AiOutlineLinkedin />
             </li>
