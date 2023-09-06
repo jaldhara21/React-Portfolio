@@ -1,9 +1,11 @@
+/* Universal CSS for all elements */
 * {
   margin: 555;
   padding: 555;
   box-sizing: border-box;
 }
 
+/* Define custom CSS variables */
 :root {
   /*main colors */
   --primary-color: #0E5259;
@@ -19,6 +21,7 @@
 
 }
 
+/* Body styles */
 body {
   color: #D5F2EA;
   font-family: 'Open Sans', sans-serif;
@@ -63,8 +66,6 @@ header h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
 header a {
   text-decoration: none;
   color: #0E5259;
@@ -80,7 +81,6 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-
 }
 
 /* button styling */
@@ -104,11 +104,9 @@ header nav ul li a:hover {
   color: #D5F2EA;
   border-radius: 15px;
   text-shadow: none;
-  /*    transition: .5s ease-in;*/
 }
 
-
-/* Hero Style Start */
+/* Hero section styles */
 .hero {
   background-image: url("../src/assets/cover/cover.jpg");
   background-size: cover;
@@ -119,12 +117,11 @@ header nav ul li a:hover {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
-
 }
 
 /* Hero Style End */
 
-/* hero-cta start */
+/* hero-cta styles */
 .hero-cta {
   width: 35%;
   text-align: center;
@@ -148,8 +145,7 @@ header nav ul li a:hover {
 
 /* hero-cta end */
 
-
-/*Intro*/
+/*Introduction section styles*/
 .intro p {
   line-height: 1.7;
   color: #0E5259;
@@ -187,8 +183,7 @@ header nav ul li a:hover {
 
 /*end intro*/
 
-
-/* REACH OUT STYLES START */
+/* Contact section styles */
 #reach-out {
   /* margin-top: 5px; */
   background: #75BFB2;
@@ -229,9 +224,7 @@ header nav ul li a:hover {
   margin-top: 5px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.75);
-
 }
-
 
 .contact-form input:focus,
 .contact-form textarea:focus {
@@ -248,9 +241,6 @@ header nav ul li a:hover {
   padding: 15px 0;
   font-size: 25px;
   border-radius: 10px;
-
-
-
 }
 
 .contact-info>* {
@@ -258,14 +248,12 @@ header nav ul li a:hover {
   margin: 15px;
 }
 
-
 .contact-info div {
   width: 410px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
   margin: 30px 0 0 60px;
-
 }
 
 .contact-info h3 {
@@ -279,8 +267,6 @@ header nav ul li a:hover {
   line-height: 1.5;
   font-size: 25px;
   font-style: normal;
-
-
 }
 
 #contact-list {
@@ -303,13 +289,11 @@ header nav ul li a:hover {
 /*end "Contact me" styles*/
 
 
-/*Start Jobs section*/
-
+/* Jobs section styles */
 .jobs {
   background: #0E5259;
 
 }
-
 
 .job {
   margin: 50px auto;
@@ -321,7 +305,6 @@ header nav ul li a:hover {
   justify-content: space-between;
   border-bottom: 1px solid #D5F2EA;
 }
-
 
 .job:nth-child(even) {
   border-bottom: 1px solid #D5F2EA;
@@ -336,7 +319,6 @@ header nav ul li a:hover {
   line-height: 1.5;
   color: #75BFB2;
 }
-
 
 .job-info {
   flex: 2 70%;
@@ -355,9 +337,6 @@ header nav ul li a:hover {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-
-
-
 }
 
 .job-img img {
@@ -372,13 +351,11 @@ header nav ul li a:hover {
 
 .job-img:hover {
   opacity: 1.0;
-  /*    transition: .5s ease;*/
   filter: alpha(opacity=100);
   transform: scale(1.01);
 }
 
 .job-img img:hover {
-  /*    transition: .5s ease-in-out;*/
   border: 5px solid #ACF2E5;
   transform: scale(1.1);
 }
@@ -399,12 +376,7 @@ header nav ul li a:hover {
 
 /*End Jobs section*/
 
-
-
-
-
-/*Resume section*/
-
+/*Resume section styles  */
 .download-intro p {
   line-height: 1.7;
   color: #0E5259;
@@ -441,17 +413,13 @@ header nav ul li a:hover {
   margin-right: 0%;
 }
 
-
-
 .article {
   margin: 10px;
   margin-bottom: 1em;
   background-color: #B4D9CB;
 }
 
-
 .resume-body img {
-
   height: auto;
 }
 
@@ -477,8 +445,6 @@ header nav ul li a:hover {
   transition: .5s ease;
 }
 
-
-
 .download-info {
   flex: 3 70%;
   display: flex;
@@ -486,15 +452,6 @@ header nav ul li a:hover {
   align-items: center;
 
 }
-
-/* .download-text {
-  flex: 12;
-} */
-/* 
-.download-text p {
-  color: #328C83;
-  font-size: 32px;
-} */
 
 .column-title {
   color: #285950;
@@ -506,23 +463,15 @@ header nav ul li a:hover {
   color: #285950;
   font-size: 20px;
   padding: 5px;
-
-
 }
 
 .column-text ul li {
   list-style: none;
 }
 
-
 /*End resume section*/
 
-
-
-
-
-
-/* start styles to <footer> */
+/* Footer styles */
 footer {
   background: #D5F2EA;
   font-weight: bold;
@@ -533,8 +482,6 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-
 }
 
 footer h2 {
@@ -555,7 +502,6 @@ footer p {
 footer div {
 
   line-height: 1.5;
-  /* text-align: right; */
 }
 
 footer a {
@@ -581,9 +527,6 @@ footer a:hover {
   transition: .5s ease;
 }
 
-/* end styles to <footer> */
-
-
 /* extra titles stylings */
 .section-title {
   font-size: 48px;
@@ -607,19 +550,18 @@ label {
   font-size: 25px;
 }
 
-/*Extra styling*/
+/* Additional styles for flex row  */
 .flex-row {
   display: flex;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* Media queries for smaller desktop screens and smaller */
 
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
-
   }
 
   header h1 {
@@ -665,16 +607,12 @@ label {
     display: block;
     justify-content: space-around;
     flex-wrap: wrap;
-
   }
-
 }
 
 @media screen and (max-width: 768px) {
-  /* section {
-    padding: 30px 15px;
-  } */
 
+  /* Styles for even smaller screens */
   .job h3 {
     flex: 1 100%;
     text-align: center;
@@ -712,7 +650,7 @@ label {
 
 @media screen and (max-width: 575px) {
 
-
+  /* Styles for very small screens */
   .section-title {
     width: 95%;
   }
@@ -735,8 +673,6 @@ label {
   .contact-info li {
     font-size: 25px;
     justify-content: space-between;
-
-
   }
 
   #contact-list {
@@ -746,12 +682,9 @@ label {
     flex-wrap: wrap;
     margin-bottom: 25px;
     margin-right: 120px;
-
   }
 
   .contact-info>* {
     flex: 0 100%;
   }
-
-
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import horiseonImage from "../../assets/small/Horiseon.png";
+import workDaySchedulerImage from "../../assets/small/work-day-scheduler.png";
 import pwaTextEditorImage from "../../assets/small/PWA-Text-Editor.png";
 import studentMarkImage from "../../assets/small/Student-Mark-image.png";
 import weatherDashImage from "../../assets/small/Weather-Dashboard.png";
@@ -15,7 +17,51 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://jaldhara21.github.io//Weather-Dashboard">
+              <a href="https://jaldhara21.github.io/Horiseon/">
+                {" "}
+                <img
+                  src={horiseonImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Horiseon"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Horiseon</h4>
+              <p>
+              In this project, I undertook a series of refinements to Horiseon's website codebase. I began by enhancing its SEO by introducing a descriptive title for the browser tab, ensuring improved discoverability. Furthermore, I optimized the HTML structure with semantic elements, reorganized CSS for better maintainability, enhanced accessibility by adding alt attributes, removed redundant CSS classes, and updated the background color for a visually pleasing user experience. These changes collectively contribute to a more efficient, accessible, and visually appealing website.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://jaldhara21.github.io/Work-Day-Scheduler/">
+                {" "}
+                <img
+                  src={workDaySchedulerImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Work Day Scheduler"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Work Day Scheduler</h4>
+              <p>
+              This project aims to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.You'll need to use the Day.js library to work with date and time.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://jaldhara21.github.io/Weather-Dashboard/">
                 {" "}
                 <img
                   src={weatherDashImage}
@@ -37,7 +83,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/jaldhara21/PWA-Text-Editor">
+              <a href="https://damp-cove-53460-4f74448dcefe.herokuapp.com/">
                 {" "}
                 <img
                   src={pwaTextEditorImage}
